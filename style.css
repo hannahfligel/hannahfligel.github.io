@@ -1,5 +1,6 @@
 body {
-  background-color: #FFFFFF;
+  background-image: url(resume-background-2.jpg);
+  background-size: cover;
   color: #425154;
   font-family: ariel, helvetica, sans-serif;
   margin: 10% 20%;
