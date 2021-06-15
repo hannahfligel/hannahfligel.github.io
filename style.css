@@ -81,3 +81,11 @@ body {
   padding: 1em 1em;
   background-color: #FBC7CC;
 }
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .container {
+    width: 90%;
+  }
+}
+
