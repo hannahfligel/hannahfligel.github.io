@@ -1,5 +1,4 @@
 .jumbotron {
-  /* border: 1px solid ; */
   background-image: url(annie-spratt-zA7I5BtFbvw-unsplash.jpg);
   background-size: cover;
   color: black;
@@ -11,6 +10,7 @@ h1 {
   font-size: 2em;
   text-transform: uppercase;
 }
+
 
 .jumbotron-left {
 width: 50%;
@@ -30,14 +30,11 @@ justify-content: flex-end;
   border-width: 0;
   border-style: solid;
   border-radius: 50%;
-  /* margin-left: 40em; */
 }
 
 .container {
-  /* border: 1px solid black; */
   width: 60%;
   margin: auto;
-  
 }
 
 nav {
@@ -67,8 +64,6 @@ body {
 .exp-header {
   text-align: center;
   text-transform: uppercase;
-  /* border-top: 1px solid;
-  border-bottom: 1px solid; */
   padding: 1em 1em;
   background-color: #FBC7CC;
 }
@@ -76,13 +71,32 @@ body {
 .edu-container {
   text-align: center;
   text-transform: uppercase;
-  /* border-top: 1px solid;
-  border-bottom: 1px solid; */
   padding: 1em 1em;
-  background-color: #FBC7CC;
+  background-color: #FBCFB1;
 }
 
-/* Extra small devices (phones, 600px and down) */
+.exp-one {
+  padding: 1em 1em;
+  background-color: #f9ebec;
+}
+
+.exp-two {
+  padding: 1em 1em;
+  background-color: #fae2e4;
+}
+
+.exp-three {
+  padding: 1em 1em;
+  background-color: #fad9dc;
+}
+
+.edu-list {
+  text-align: center; 
+  text-transform: uppercase;
+  padding: 1em 1em;
+  background-color: #fadbc6;
+}
+
 @media only screen and (max-width: 600px) {
   .container {
     width: 90%;
